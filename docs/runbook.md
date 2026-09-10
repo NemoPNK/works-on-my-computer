@@ -26,7 +26,7 @@ How can someone confirm that the application is healthy?
 | Check | How to perform it | Expected result |
 | --- | --- | --- |
 | interact | use it | working |
-|  |  |  |
+| Press button | Read the text | Button working |
 |  |  |  |
 |  |  |  |
 
@@ -37,7 +37,7 @@ Use one row for each problem you investigate.
 | Problem | Check | Try | Result |
 | --- | --- | --- | --- |
 | Wrong action method | Not working | New method | Working |
-|  |  |  |  |
+| Button with wrong color | Eye | Fix color | Button good color |
 |  |  |  |  |
 
 ## 6. Recovery
@@ -49,8 +49,8 @@ If normal behaviour is not restored, what is the next action?
 
 What information should someone capture before or during troubleshooting?
 
-- The bu
-- 
+- Take a screeshot of the bug
+- Try to reproduce it and explain
 - 
 
 ## 8. Lessons learned
@@ -58,6 +58,6 @@ What information should someone capture before or during troubleshooting?
 After today's workshop, add anything that would make future diagnosis or recovery faster.
 
 -  Deploy with the good settings
-- 
+-  Deploy when you test everything
 - 
 
