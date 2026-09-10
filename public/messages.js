@@ -10,6 +10,7 @@ window.WOMM_MESSAGES = {
     "Interesting. I've never seen it do that before.",
     "Please don't touch anything. It is somehow working.",
     "The bug cannot be reproduced now that someone important is watching."
+    "A bug jump on my keyboard"
   ],
   solutions: [
     "Restart exactly one thing and look confident.",
@@ -17,6 +18,7 @@ window.WOMM_MESSAGES = {
     "Check the file path before blaming the network.",
     "Compare staging and production. Then sigh professionally.",
     "Rollback first, investigate second, explain calmly third."
+    "I corrected the bug that the bug created"
   ],
   panic: [
     "Incident mode: make tea, open logs, stop guessing.",
