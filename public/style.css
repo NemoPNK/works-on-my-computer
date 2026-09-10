@@ -148,6 +148,10 @@ button:focus-visible {
   outline-offset: 3px;
 }
 
+.copyButton {
+  background-color: #f2c14e;
+}
+
 .secondary {
   background: #315f85;
 }

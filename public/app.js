@@ -33,4 +33,8 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("panicButton").addEventListener("click", function () {
     showMessage("panic");
   });
+  document.getElementById("copyButton").addEventListener("click", function () {
+    const message = document.getElementById("message");
+    navigator.clipboard.writeText(message.textContent);
+  });
 });
