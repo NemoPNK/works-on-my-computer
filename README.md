@@ -2,9 +2,15 @@
 
 **The Developer Excuse Generator** is a deliberately small static website used for the CDA-M10 deployment workshop.
 
-Release: **v1.0.0 — Stable-ish**
+Release: **v1.1.0 — Stable-ish**
 
 > Initial release. Management has been informed that everything is fine.
+
+## Who and why
+
+By Leopold David
+
+It is an educational project for Ekod
 
 ## Why this project is small
 
@@ -26,7 +32,7 @@ You will use it to practise:
 - HTML
 - CSS
 - Vanilla JavaScript
-- GitLab Pages
+- GitHub Pages
 
 There is no Docker, database, framework or build tool to install.
 
@@ -41,18 +47,16 @@ Anything delivered to a browser is visible to the user. Never place passwords, A
 - `public/app.js` — button logic
 - `public/messages.js` — excuses, solutions and panic messages
 - `public/config.js` — harmless visible configuration
-- `.gitlab-ci.yml` — GitLab Pages deployment configuration
+- `.github/workflows/deploy.yml` — GitLab Pages deployment configuration
 
 ## Your documentation templates
 
-The files in `docs/` are **templates, not completed deployment documents**.
+The files in `docs/` are **templates, not completed deployment documents**. (not all)
 
 You are expected to complete them from the evidence you gather during the workshop:
 
-- `docs/deployment-guide.md`
 - `docs/pre-deployment-checklist.md`
 - `docs/rollback-plan.md`
-- `docs/runbook.md`
 
 Do not invent an ideal procedure after the event. Record what you actually checked, changed, deployed and verified.
 
@@ -60,9 +64,9 @@ Do not invent an ideal procedure after the event. Record what you actually check
 
 Open `public/index.html` in a browser.
 
-## Deploy with GitLab Pages
+## Deploy with Github Pages
 
-Use the ENKI GitLab setup guide during class. As you work, complete the documentation templates in `docs/`.
+Use the ENKI Github setup guide during class. As you work, complete the documentation templates in `docs/`.
 
 ## Classroom release sequence
 
