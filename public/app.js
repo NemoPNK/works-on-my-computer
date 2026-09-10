@@ -34,7 +34,14 @@ document.addEventListener("DOMContentLoaded", function () {
     showMessage("panic");
   });
   document.getElementById("copyButton").addEventListener("click", function () {
-    const message = document.getElementById("message");
-    navigator.clipboard.writeText(message.textContent);
+    const button = document.getElementById("copyButton");
+
+    navigator.clipboard.writeText(document.getElementById("message").textContent).then(function () {
+      button.textContent = "Done";
+
+      setTimeout(function () {
+        button.textContent = "Copy";
+      }, 1000);
+    });
   });
 });
