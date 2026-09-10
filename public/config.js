@@ -3,4 +3,5 @@ window.WOMM_CONFIG = {
   version: "1.0.0",
   developerConfidence: "73%",
   statusText: "Probably fine."
+  support contact: "yes"
 };
