@@ -10,13 +10,14 @@ What is this runbook for?
 ## 2. Audience
 
 Who is expected to use it?
+User
 
 
 ## 3. Application location
 
-- Repository / project:
-- Deployed application URL:
-- Current expected version:
+- Repository / project: https://github.com/NemoPNK/works-on-my-computer
+- Deployed application URL: https://nemopnk.github.io/works-on-my-computer/
+- Current expected version: 1.1.0
 
 ## 4. Normal checks
 
@@ -24,7 +25,7 @@ How can someone confirm that the application is healthy?
 
 | Check | How to perform it | Expected result |
 | --- | --- | --- |
-|  |  |  |
+| interact | use it | working |
 |  |  |  |
 |  |  |  |
 |  |  |  |
@@ -35,7 +36,7 @@ Use one row for each problem you investigate.
 
 | Problem | Check | Try | Result |
 | --- | --- | --- | --- |
-|  |  |  |  |
+| Wrong action method | Not working | New method | Working |
 |  |  |  |  |
 |  |  |  |  |
 
@@ -48,7 +49,7 @@ If normal behaviour is not restored, what is the next action?
 
 What information should someone capture before or during troubleshooting?
 
-- 
+- The bu
 - 
 - 
 
@@ -56,7 +57,7 @@ What information should someone capture before or during troubleshooting?
 
 After today's workshop, add anything that would make future diagnosis or recovery faster.
 
-- 
+-  Deploy with the good settings
 - 
 - 
 
