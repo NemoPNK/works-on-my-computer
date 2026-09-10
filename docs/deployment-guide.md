@@ -21,7 +21,7 @@ What are you deploying, and what is included in this release?
 
 What must already be available, configured or confirmed before deployment can begin?
 
-- 
+- All the button and status working
 - 
 - 
 - 
@@ -32,7 +32,7 @@ Which files or configuration values matter for this deployment?
 
 | Item | Purpose | What must be checked? |
 | --- | --- | --- |
-|  |  |  |
+| public | the app | all the files |
 |  |  |  |
 |  |  |  |
 
@@ -42,7 +42,7 @@ Record the real procedure in the order you performed it.
 
 | Step | Action | Expected result | Actual result / evidence |
 | --- | --- | --- | --- |
-| 1 |  |  |  |
+| 1 | Deploy | Deployed without error | Good |
 | 2 |  |  |  |
 | 3 |  |  |  |
 | 4 |  |  |  |
@@ -57,21 +57,21 @@ What must be checked after deployment before you can call the release successful
 
 | Check | Expected result | Actual result | Pass / fail |
 | --- | --- | --- | --- |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| All button | Working | Working | it work | Pass |
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
 
 ## 7. Evidence
 
 Record the evidence that another person could use to confirm what happened.
 
-- Project URL:
-- Deployed application URL:
-- Release / version observed:
-- Pipeline / deployment result:
-- Commit or reference:
-- Other useful evidence:
+- Project URL: https://github.com/NemoPNK/works-on-my-computer
+- Deployed application URL: https://nemopnk.github.io/works-on-my-computer/
+- Release / version observed: 1.1.0
+- Pipeline / deployment result: Working
+- Commit or reference: Last commit
+- Other useful evidence: 
 
 ## 8. Problems or deviations
 
